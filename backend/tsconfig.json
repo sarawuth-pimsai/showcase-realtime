@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "baseUrl": "./src",
+    "paths": {
+      "@domain/*": ["./domain/*"],
+      "@configs/*": ["./configs/*"],
+      "@presentation/*": ["./presentation/*"],
+      "@utils": ["./utils"]
+    },
+    "esModuleInterop": true
+  }
+}
